@@ -2,7 +2,7 @@
 library(tidyverse)
 
 # Read the dataset
-file_path <- "C:/Users/mikay/Downloads/graduate_survey.csv"
+file_path <- "C:/Users/mikay/Desktop/University/2025/Block 1/ITRDA3-11/Actual Assignment for ITRDA/graduate_survey.csv"
 df <- read.csv(file_path, stringsAsFactors = FALSE)
 
 # View the first few rows
@@ -38,5 +38,3 @@ top_campuses <- df %>%
 
 df <- df %>%
   filter(Campus %in% top_campuses)
-
-

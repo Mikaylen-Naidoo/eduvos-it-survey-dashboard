@@ -116,4 +116,3 @@ ggplot(df_employment, aes(x = StudyField, y = n, fill = Employment)) +
   scale_y_continuous(labels = scales::percent_format()) +
   theme_minimal() +
   labs(title = "Employment Rate by Study Field", x = "Study Field", y = "Employment Rate")
-

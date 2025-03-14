@@ -3,7 +3,7 @@ library(shinydashboard)
 library(tidyverse)
 
 # Load dataset
-df <- read.csv("C:/Users/mikay/Downloads/graduate_survey.csv", stringsAsFactors = FALSE)
+df <- read.csv("C:/Users/mikay/Desktop/University/2025/Block 1/ITRDA3-11/Actual Assignment for ITRDA/graduate_survey.csv", stringsAsFactors = FALSE)
 
 # Data Cleaning (Modify according to previous steps)
 df <- df %>%
@@ -104,4 +104,3 @@ server <- function(input, output) {
 
 # Run the application
 shinyApp(ui = ui, server = server)
-
